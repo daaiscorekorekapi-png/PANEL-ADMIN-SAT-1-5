@@ -13,58 +13,7 @@
 
 <script>
 /* KONFIGURASI FIREBASE */
-var FIREBASE_CONFIGS = {
-  "Kelas 1": { 
-    apiKey: "AIzaSyCidIA8eDuOlfSj6Vto9eSkawNup9dzBRA",
-    authDomain: "kelas-1-palasah.firebaseapp.com",
-    databaseURL: "https://kelas-1-palasah-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "kelas-1-palasah",
-    storageBucket: "kelas-1-palasah.firebasestorage.app",
-    messagingSenderId: "630095606988",
-    appId: "1:630095606988:web:ad78b0e1abe74611033e69",
-    measurementId: "G-JBFT6CFB50"
-  },
-  "Kelas 2": { 
-    apiKey: "AIzaSyBmZr1sR1aIMRbO03xAOwks5JS4Fhv-KTI",
-    authDomain: "kelas-2-palasah.firebaseapp.com",
-    databaseURL: "https://kelas-2-palasah-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "kelas-2-palasah",
-    storageBucket: "kelas-2-palasah.firebasestorage.app",
-    messagingSenderId: "286698774157",
-    appId: "1:286698774157:web:847d2603bafd17a25c8cc4",
-    measurementId: "G-GRC8JC0MHX"
-  },
-  "Kelas 3": { 
-    apiKey: "AIzaSyBDigaKeMJs_o31JZJ5X1-oyp6ozeYqhKo",
-    authDomain: "kelas-3-palasah.firebaseapp.com",
-    databaseURL: "https://kelas-3-palasah-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "kelas-3-palasah",
-    storageBucket: "kelas-3-palasah.firebasestorage.app",
-    messagingSenderId: "193154171999",
-    appId: "1:193154171999:web:193012682940b4bc4c07ea",
-    measurementId: "G-QP0LFBMTQ8"
-  },
-  "Kelas 4": { 
-    apiKey: "AIzaSyD8THsKMhC4lHSfqy41qPyhrr-MzOXLil0",
-    authDomain: "kelas4palasah.firebaseapp.com",
-    databaseURL: "https://kelas4palasah-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "kelas4palasah",
-    storageBucket: "kelas4palasah.firebasestorage.app",
-    messagingSenderId: "1043025345813",
-    appId: "1:1043025345813:web:619bd1e7ba35376bb8fd1c",
-    measurementId: "G-1SF8GP6J1P"
-  },
-  "Kelas 5": { 
-    apiKey: "AIzaSyAeP3G3msXEahPppvxgM4nTnDkXufzru90",
-    authDomain: "kelas5palasah.firebaseapp.com",
-    databaseURL: "https://kelas5palasah-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "kelas5palasah",
-    storageBucket: "kelas5palasah.firebasestorage.app",
-    messagingSenderId: "919315103025",
-    appId: "1:919315103025:web:4d0c891b4e0ad55851c410",
-    measurementId: "G-3YHBGXYHKS"
-  }
-};
+var FIREBASE_CONFIGS={"Kelas 1":{apiKey:"AIzaSyBAvUcDAK6J84c30JMEyf6i_ZhoEygrjug",authDomain:"kelas-1-1d06d.firebaseapp.com",projectId:"kelas-1-1d06d",storageBucket:"kelas-1-1d06d.firebasestorage.app",messagingSenderId:"1004555712747",appId:"1:1004555712747:web:2c6c839151e50099c126ae"},"Kelas 2":{apiKey:"AIzaSyBqf3uSyHc6cH1CjslXPPQlpyaf5Rw0NAo",authDomain:"kelas-2-bf01f.firebaseapp.com",databaseURL:"https://kelas-2-bf01f-default-rtdb.asia-southeast1.firebasedatabase.app",projectId:"kelas-2-bf01f",storageBucket:"kelas-2-bf01f.firebasestorage.app",messagingSenderId:"462208895591",appId:"1:462208895591:web:340ae3befb083dcf75a2c2"},"Kelas 3":{apiKey:"AIzaSyAuplsRLjT_wLUF6p9x-h2dycu5DIHXhLo",authDomain:"kelas-3-91690.firebaseapp.com",projectId:"kelas-3-91690",storageBucket:"kelas-3-91690.firebasestorage.app",messagingSenderId:"421190461245",appId:"1:421190461245:web:bda0730108544a6feb0754"},"Kelas 4":{apiKey:"AIzaSyCOsKGJ_NkeTJ8ajvHC1exdHDFx5kP-bgo",authDomain:"kelas-4-1b481.firebaseapp.com",databaseURL:"https://kelas-4-1b481-default-rtdb.asia-southeast1.firebasedatabase.app",projectId:"kelas-4-1b481",storageBucket:"kelas-4-1b481.firebasestorage.app",messagingSenderId:"602746973107",appId:"1:602746973107:web:a74a54e64ed6e5c43df9c6"},"Kelas 5":{apiKey:"AIzaSyBCiC4e5XjJipr8-jVXhfoFzeOAmrKJzZw",authDomain:"kelas-5-cdb85.firebaseapp.com",projectId:"kelas-5-cdb85",storageBucket:"kelas-5-cdb85.firebasestorage.app",messagingSenderId:"368915690996",appId:"1:368915690996:web:6ef64c14500377a76ab5a1"}};
 try { firebase.initializeApp({ apiKey:"_", projectId:"_" }); } catch(e) {}
 var _dbCache={}, _stCache={};
 var KELAS_ABC=['Kelas 1','Kelas 2'];
